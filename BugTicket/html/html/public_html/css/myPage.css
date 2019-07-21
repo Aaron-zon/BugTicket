@@ -1,0 +1,113 @@
+html, body {
+	/*height: 100%;*/
+	height: 100%;
+
+}
+.text-blue {
+	background: #3385ff;
+	color: #ffffff;
+}
+.mar-bottom-25 {
+	margin-bottom: 25px;
+}
+.mar-right-all {
+    display: block;
+	margin-left: auto;
+}
+/*导航*/
+.container-fluid {
+	padding: 0;
+}
+.navbar {
+	border-radius: 0;
+}
+.bor-not {
+	height: 64px;
+}
+.pad-cen {
+	padding: 6px 6px;
+}
+.hei-all {
+	height: 100%;
+}
+.marg-no {
+	margin: 0;
+}
+
+/*主题容器*/
+.container-projects {
+	position: relative;
+	top: 64px;
+	min-width: 1400px;
+	/*border:1px solid black;*/
+	height: 100%;
+}
+.pro-menu {
+	border-right: 1px solid #ccc;
+	width: 300px;
+	height: 100%;
+	padding-top: 30px;
+	display: inline-block;
+	position: fixed;
+}
+.new-bug {
+	padding: 5px 20px;
+}
+.new-bug a:hover {
+	color: #fff;
+}
+.pro-search {
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+.pro-search input {
+	width: 95%;
+	height: 32px;
+}
+.new-bug {
+	position: relative;
+	height: 40px;
+}
+.btn-sm {
+	width: 60px;
+	position: absolute;
+	top: 0;
+	right: 40px;
+}
+.pro-list li{
+	list-style: none;
+	font-size: 14px;
+}
+.source {
+	height: 30px;
+}
+#main {
+	display: inline-block;
+	vertical-align: top;
+	/*width: 50%;*/
+	width: 1000px;
+	min-width: 900px;
+	position: relative;
+	bottom: 0;
+	margin-left: 300px;
+	padding: 16px;
+}
+#main .show-data {
+	border: 1px solid #ddd;
+	padding: 16px;
+}
+#main .text-box label {
+	display: block;
+	margin: 5px;
+}
+#main .text-box input[type=text] {
+	width: 800px;
+	height: 38px;
+}
+#main .text-box textarea {
+	display: block;
+	width: 800px;
+	height: 200px;
+	font-size: 14px;
+	margin-top: 10px; 
+}
