@@ -1,16 +1,27 @@
 <template>
-  <div id="app">
-    <HeaderNav></HeaderNav>
-  </div>
+    <div id="app">
+        <MainPage v-if="loginFlg"></MainPage>
+        <Login v-else></Login>
+    </div>
 </template>
 
 <script>
-import HeaderNav from './common/HeaderNav.vue'
+import Login from './components/Page/Login.vue'
+import MainPage from './components/Page/MainPage.vue'
+
+
+
 export default {
-  name: 'App',
-  components: {
-    HeaderNav
-  }
+    name: 'App',
+    components: {
+        Login,
+        MainPage
+    },
+data: function () {
+    return {
+        loginFlg: true
+    }
+}
 }
 </script>
 
