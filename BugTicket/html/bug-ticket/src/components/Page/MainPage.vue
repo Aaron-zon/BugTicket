@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import HeaderBar from '../../common/HeaderBar.vue'
-import LeftNavs from '../../common/LeftNavs.vue'
-import MainBox from '../../common/MainBox.vue'
+import HeaderBar from '../Parts/HeaderBar.vue'
+import LeftNavs from '../Parts/LeftNavs.vue'
+import MainBox from '../Parts/MainBox.vue'
 
 
 export default {

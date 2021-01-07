@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <MainPage v-if="loginFlg"></MainPage>
-        <Login v-else></Login>
+        <Login v-else @login="login"></Login>
     </div>
 </template>
 
@@ -17,11 +17,16 @@ export default {
         Login,
         MainPage
     },
-data: function () {
-    return {
-        loginFlg: true
+    data: function () {
+        return {
+            loginFlg: false
+        }
+    },
+    methods: {
+        login() {
+            this.loginFlg = true;
+        }
     }
-}
 }
 </script>
 
