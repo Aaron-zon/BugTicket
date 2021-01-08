@@ -1,6 +1,6 @@
 <template>
-    <div class="col-md-10">
-        main
+    <div>
+        <router-view></router-view>
     </div>
 </template>
 

@@ -87,20 +87,31 @@ body,
     width: 100%;
     height: 100%;
 }
+#app>.main {
+	min-width: 1024px;
+}
 #app .left-navs {
     height: 100%;
     display: inline-block;
     vertical-align: top;
     position: relative;
     border-right: 1px solid #ddd;
-    min-width: 300px;
+    width: 280px;
 
 }
 #app .main-box {
-    border: 1px  solid black;
     padding: 15px;
     display: inline-block;
     vertical-align: top;
     position: relative;
-    height: 100%;
+	height: 100%;
+	width: calc(100% - 280px);
+}
+
+.topic {
+	width:80%;
+}
+
+.cursor-pointer {
+	cursor: pointer;
 }

@@ -46,7 +46,10 @@ export default {
             this.passWd = data;
 
         })
-        this.login();
+        if (this.userCd || this.passWd) {
+            this.login();
+        }
+        
     },
     methods: {
         login() {
